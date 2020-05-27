@@ -2,6 +2,9 @@
 
 These tools were developed for evaluating the extent of excitation of light-absorbing molecules in a sample by pulsed laser illumination.
 
+Please cite the following publication when using these tools:
+Grünbein, M.L., et al. Illumination guidelines for ultrafast pump–probe experiments by serial femtosecond crystallography. Nature Methods (2020). https://doi.org/10.1038/s41592-020-0847-3
+
 Both the python and Excel tool share the same basic functionality: given sample and pump illumination properties, the absorbed number of photons per molecule is calculated as a function of depth within the sample. Equal probabilities for single-and multi-photon absorption are assumed as a strong over-simplification. The python script additionally evaluates the fraction of molecules in single- and multiphoton regime.
 
 Incident pump laser fluence is assumed to be the same for all area illuminated. This corresponds to the situation where the probe beam is very small, probing a cross sectional area of the excited sample over which the incident laser power did not change significantly. For example, this is the case in typical SFX experiments where the optical pump pulse is focused to ~100 µm diameter and the X-ray probe beam is focused to ~1 µm diameter.
